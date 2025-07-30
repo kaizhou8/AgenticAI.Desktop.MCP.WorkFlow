@@ -1,0 +1,12 @@
+C:\Users\phoen\Documents\wind\AgenticAI.Desktop\src\3.Domain\AgenticAI.Desktop.Domain.Models\bin\Debug\net9.0\AgenticAI.Desktop.Domain.Models.deps.json
+C:\Users\phoen\Documents\wind\AgenticAI.Desktop\src\3.Domain\AgenticAI.Desktop.Domain.Models\bin\Debug\net9.0\AgenticAI.Desktop.Domain.Models.dll
+C:\Users\phoen\Documents\wind\AgenticAI.Desktop\src\3.Domain\AgenticAI.Desktop.Domain.Models\bin\Debug\net9.0\AgenticAI.Desktop.Domain.Models.pdb
+C:\Users\phoen\Documents\wind\AgenticAI.Desktop\src\3.Domain\AgenticAI.Desktop.Domain.Models\obj\Debug\net9.0\AgenticAI.Desktop.Domain.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phoen\Documents\wind\AgenticAI.Desktop\src\3.Domain\AgenticAI.Desktop.Domain.Models\obj\Debug\net9.0\AgenticAI.Desktop.Domain.Models.AssemblyInfoInputs.cache
+C:\Users\phoen\Documents\wind\AgenticAI.Desktop\src\3.Domain\AgenticAI.Desktop.Domain.Models\obj\Debug\net9.0\AgenticAI.Desktop.Domain.Models.AssemblyInfo.cs
+C:\Users\phoen\Documents\wind\AgenticAI.Desktop\src\3.Domain\AgenticAI.Desktop.Domain.Models\obj\Debug\net9.0\AgenticAI.Desktop.Domain.Models.csproj.CoreCompileInputs.cache
+C:\Users\phoen\Documents\wind\AgenticAI.Desktop\src\3.Domain\AgenticAI.Desktop.Domain.Models\obj\Debug\net9.0\AgenticAI.Desktop.Domain.Models.sourcelink.json
+C:\Users\phoen\Documents\wind\AgenticAI.Desktop\src\3.Domain\AgenticAI.Desktop.Domain.Models\obj\Debug\net9.0\AgenticAI.Desktop.Domain.Models.dll
+C:\Users\phoen\Documents\wind\AgenticAI.Desktop\src\3.Domain\AgenticAI.Desktop.Domain.Models\obj\Debug\net9.0\refint\AgenticAI.Desktop.Domain.Models.dll
+C:\Users\phoen\Documents\wind\AgenticAI.Desktop\src\3.Domain\AgenticAI.Desktop.Domain.Models\obj\Debug\net9.0\AgenticAI.Desktop.Domain.Models.pdb
+C:\Users\phoen\Documents\wind\AgenticAI.Desktop\src\3.Domain\AgenticAI.Desktop.Domain.Models\obj\Debug\net9.0\ref\AgenticAI.Desktop.Domain.Models.dll

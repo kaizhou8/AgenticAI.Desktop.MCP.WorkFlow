@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{065B7609-9939-415E-98AF-6E2AA266B0BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Presentation", "1.Presentation", "{E8E71C2E-FCB1-4E73-81D5-AB03500817CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgenticAI.Desktop.MAUI", "src\1.Presentation\AgenticAI.Desktop.MAUI\AgenticAI.Desktop.MAUI.csproj", "{81F8E901-CBDF-4826-875B-000F86C3876C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{17C72DCE-DE2D-40ED-8E06-35F8A9D36C0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgenticAI.Desktop.Application.Director", "src\2.Application\AgenticAI.Desktop.Application.Director\AgenticAI.Desktop.Application.Director.csproj", "{9FB0FD96-04AD-49F9-8B15-1AA092ED257D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{F3B6B8A9-770E-42FD-8B72-E9BA9D48F50D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgenticAI.Desktop.Domain.Models", "src\3.Domain\AgenticAI.Desktop.Domain.Models\AgenticAI.Desktop.Domain.Models.csproj", "{478506B1-BB00-4047-AF74-57737304CE04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infrastructure", "4.Infrastructure", "{4A322AB0-5632-458E-84F3-B47C092E7066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgenticAI.Desktop.Infrastructure.MCP", "src\4.Infrastructure\AgenticAI.Desktop.Infrastructure.MCP\AgenticAI.Desktop.Infrastructure.MCP.csproj", "{A09AA9C6-57FD-413E-9455-A124DB546521}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.Shared", "6.Shared", "{A425E924-D698-4EA9-9F6C-FD4A7CD7E883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgenticAI.Desktop.Shared.Contracts", "src\6.Shared\AgenticAI.Desktop.Shared.Contracts\AgenticAI.Desktop.Shared.Contracts.csproj", "{719434E1-22BD-4738-981F-E300C27A148A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81F8E901-CBDF-4826-875B-000F86C3876C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F8E901-CBDF-4826-875B-000F86C3876C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F8E901-CBDF-4826-875B-000F86C3876C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F8E901-CBDF-4826-875B-000F86C3876C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FB0FD96-04AD-49F9-8B15-1AA092ED257D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB0FD96-04AD-49F9-8B15-1AA092ED257D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB0FD96-04AD-49F9-8B15-1AA092ED257D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB0FD96-04AD-49F9-8B15-1AA092ED257D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{478506B1-BB00-4047-AF74-57737304CE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{478506B1-BB00-4047-AF74-57737304CE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{478506B1-BB00-4047-AF74-57737304CE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{478506B1-BB00-4047-AF74-57737304CE04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09AA9C6-57FD-413E-9455-A124DB546521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09AA9C6-57FD-413E-9455-A124DB546521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09AA9C6-57FD-413E-9455-A124DB546521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09AA9C6-57FD-413E-9455-A124DB546521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{719434E1-22BD-4738-981F-E300C27A148A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{719434E1-22BD-4738-981F-E300C27A148A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{719434E1-22BD-4738-981F-E300C27A148A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{719434E1-22BD-4738-981F-E300C27A148A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8E71C2E-FCB1-4E73-81D5-AB03500817CF} = {065B7609-9939-415E-98AF-6E2AA266B0BB}
+		{81F8E901-CBDF-4826-875B-000F86C3876C} = {E8E71C2E-FCB1-4E73-81D5-AB03500817CF}
+		{17C72DCE-DE2D-40ED-8E06-35F8A9D36C0D} = {065B7609-9939-415E-98AF-6E2AA266B0BB}
+		{9FB0FD96-04AD-49F9-8B15-1AA092ED257D} = {17C72DCE-DE2D-40ED-8E06-35F8A9D36C0D}
+		{F3B6B8A9-770E-42FD-8B72-E9BA9D48F50D} = {065B7609-9939-415E-98AF-6E2AA266B0BB}
+		{478506B1-BB00-4047-AF74-57737304CE04} = {F3B6B8A9-770E-42FD-8B72-E9BA9D48F50D}
+		{4A322AB0-5632-458E-84F3-B47C092E7066} = {065B7609-9939-415E-98AF-6E2AA266B0BB}
+		{A09AA9C6-57FD-413E-9455-A124DB546521} = {4A322AB0-5632-458E-84F3-B47C092E7066}
+		{A425E924-D698-4EA9-9F6C-FD4A7CD7E883} = {065B7609-9939-415E-98AF-6E2AA266B0BB}
+		{719434E1-22BD-4738-981F-E300C27A148A} = {A425E924-D698-4EA9-9F6C-FD4A7CD7E883}
+	EndGlobalSection
+EndGlobal

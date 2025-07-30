@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "j0U3xlULVJA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\phoen\\Documents\\wind\\AgenticAI.Desktop\\src\\Shared\\AgenticAI.Desktop.Shared.Contracts\\AgenticAI.Desktop.Shared.Contracts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\phoen\\.nuget\\packages\\system.text.json\\9.0.0\\system.text.json.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
