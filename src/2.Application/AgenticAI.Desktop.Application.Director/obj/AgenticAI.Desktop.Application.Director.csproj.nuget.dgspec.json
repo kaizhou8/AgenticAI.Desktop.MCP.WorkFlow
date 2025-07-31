@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,9 +30,16 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {}
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\phoen\\Documents\\wind\\AgenticAI.Desktop\\src\\3.Domain\\AgenticAI.Desktop.Domain.Models\\AgenticAI.Desktop.Domain.Models.csproj": {
+                "projectPath": "C:\\Users\\phoen\\Documents\\wind\\AgenticAI.Desktop\\src\\3.Domain\\AgenticAI.Desktop.Domain.Models\\AgenticAI.Desktop.Domain.Models.csproj"
+              },
+              "C:\\Users\\phoen\\Documents\\wind\\AgenticAI.Desktop\\src\\6.Shared\\AgenticAI.Desktop.Shared.Contracts\\AgenticAI.Desktop.Shared.Contracts.csproj": {
+                "projectPath": "C:\\Users\\phoen\\Documents\\wind\\AgenticAI.Desktop\\src\\6.Shared\\AgenticAI.Desktop.Shared.Contracts\\AgenticAI.Desktop.Shared.Contracts.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -44,11 +51,34 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.SemanticKernel": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,7 +95,149 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\phoen\\Documents\\wind\\AgenticAI.Desktop\\src\\3.Domain\\AgenticAI.Desktop.Domain.Models\\AgenticAI.Desktop.Domain.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\phoen\\Documents\\wind\\AgenticAI.Desktop\\src\\3.Domain\\AgenticAI.Desktop.Domain.Models\\AgenticAI.Desktop.Domain.Models.csproj",
+        "projectName": "AgenticAI.Desktop.Domain.Models",
+        "projectPath": "C:\\Users\\phoen\\Documents\\wind\\AgenticAI.Desktop\\src\\3.Domain\\AgenticAI.Desktop.Domain.Models\\AgenticAI.Desktop.Domain.Models.csproj",
+        "packagesPath": "C:\\Users\\phoen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\phoen\\Documents\\wind\\AgenticAI.Desktop\\src\\3.Domain\\AgenticAI.Desktop.Domain.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "e:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\phoen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\phoen\\Documents\\wind\\AgenticAI.Desktop\\src\\6.Shared\\AgenticAI.Desktop.Shared.Contracts\\AgenticAI.Desktop.Shared.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\phoen\\Documents\\wind\\AgenticAI.Desktop\\src\\6.Shared\\AgenticAI.Desktop.Shared.Contracts\\AgenticAI.Desktop.Shared.Contracts.csproj",
+        "projectName": "AgenticAI.Desktop.Shared.Contracts",
+        "projectPath": "C:\\Users\\phoen\\Documents\\wind\\AgenticAI.Desktop\\src\\6.Shared\\AgenticAI.Desktop.Shared.Contracts\\AgenticAI.Desktop.Shared.Contracts.csproj",
+        "packagesPath": "C:\\Users\\phoen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\phoen\\Documents\\wind\\AgenticAI.Desktop\\src\\6.Shared\\AgenticAI.Desktop.Shared.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "e:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\phoen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\phoen\\Documents\\wind\\AgenticAI.Desktop\\src\\3.Domain\\AgenticAI.Desktop.Domain.Models\\AgenticAI.Desktop.Domain.Models.csproj": {
+                "projectPath": "C:\\Users\\phoen\\Documents\\wind\\AgenticAI.Desktop\\src\\3.Domain\\AgenticAI.Desktop.Domain.Models\\AgenticAI.Desktop.Domain.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

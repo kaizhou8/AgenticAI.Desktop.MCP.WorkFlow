@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "y0dOAtYQ3rHbZbes9aFD/NkdlOCGukCqxSund0RXpr7dQU13z8BslDpMqkXcUkWM2r/fQ9k+bBYpiFJQa37Q/g==",
+  "dgSpecHash": "/86YDgYIztY=",
   "success": true,
   "projectFilePath": "C:\\Users\\phoen\\Documents\\wind\\AgenticAI.Desktop\\src\\6.Shared\\AgenticAI.Desktop.Shared.Contracts\\AgenticAI.Desktop.Shared.Contracts.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\phoen\\.nuget\\packages\\system.text.json\\9.0.0\\system.text.json.9.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

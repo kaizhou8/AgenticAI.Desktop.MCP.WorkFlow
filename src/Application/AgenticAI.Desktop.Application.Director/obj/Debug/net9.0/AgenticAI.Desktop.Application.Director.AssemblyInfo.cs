@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgenticAI.Desktop.Application.Director")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4c1d38c5a2805e9ac21104c9f20ea7dad344c2f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df2b197bad7c4224bbe8a8528bdbb3761516efcd")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgenticAI.Desktop.Application.Director")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgenticAI.Desktop.Application.Director")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

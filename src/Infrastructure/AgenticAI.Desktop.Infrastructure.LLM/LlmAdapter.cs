@@ -186,15 +186,6 @@ public class LlmAdapter : ILlmAdapter
     }
 
     /// <summary>
-    /// Get available LLM providers
-    /// </summary>
-    public async Task<IReadOnlyList<LlmProviderInfo>> GetAvailableProvidersAsync(CancellationToken cancellationToken = default)
-    {
-        await Task.CompletedTask; // For async consistency
-        return _providers.Values.ToList().AsReadOnly();
-    }
-
-    /// <summary>
     /// Initialize LLM providers based on configuration
     /// </summary>
     private async Task InitializeProvidersAsync()
@@ -436,6 +427,34 @@ public class LlmAdapter : ILlmAdapter
             _logger.LogWarning("Provider {ProviderId} not found, keeping current default {CurrentDefault}", 
                 providerId, _defaultProvider);
         }
+    }
+
+    /// <summary>
+    /// Get available LLM providers
+    /// </summary>
+    public async Task<IEnumerable<LlmProviderInfo>> GetAvailableProvidersAsync(CancellationToken cancellationToken = default)
+    {
+        await Task.CompletedTask; // For async consistency
+        
+        var providerInfos = new List<LlmProviderInfo>();
+        
+        foreach (var provider in _providers.Values)
+        {
+            var providerInfo = new LlmProviderInfo
+            {
+                Id = provider.Id,
+                Name = provider.Name,
+                Description = provider.Description,
+                SupportedModels = provider.SupportedModels.ToList(),
+                IsAvailable = provider.IsAvailable,
+                Configuration = new Dictionary<string, object>(provider.Configuration)
+            };
+            
+            providerInfos.Add(providerInfo);
+        }
+        
+        _logger.LogInformation("Retrieved {ProviderCount} available LLM providers", providerInfos.Count);
+        return providerInfos;
     }
 
     /// <summary>

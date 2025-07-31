@@ -183,5 +183,51 @@ public interface ILlmAdapter
     /// <summary>
     /// Get available LLM providers
     /// </summary>
-    Task<IReadOnlyList<LlmProviderInfo>> GetAvailableProvidersAsync(CancellationToken cancellationToken = default);
+    Task<IEnumerable<LlmProviderInfo>> GetAvailableProvidersAsync(CancellationToken cancellationToken = default);
+}
+
+/// <summary>
+/// Interface for security management
+/// </summary>
+public interface ISecurityManager
+{
+    /// <summary>
+    /// Authenticate user with credentials
+    /// </summary>
+    Task<SecurityAuthenticationResult> AuthenticateAsync(string username, string password, CancellationToken cancellationToken = default);
+    
+    /// <summary>
+    /// Validate session and check authorization
+    /// </summary>
+    Task<SecurityAuthorizationResult> AuthorizeAsync(string sessionId, string resource, string action, CancellationToken cancellationToken = default);
+    
+    /// <summary>
+    /// Encrypt sensitive data
+    /// </summary>
+    Task<string> EncryptDataAsync(string plainText, CancellationToken cancellationToken = default);
+    
+    /// <summary>
+    /// Decrypt sensitive data
+    /// </summary>
+    Task<string> DecryptDataAsync(string encryptedText, CancellationToken cancellationToken = default);
+    
+    /// <summary>
+    /// Generate secure hash for passwords
+    /// </summary>
+    Task<string> HashPasswordAsync(string password, CancellationToken cancellationToken = default);
+    
+    /// <summary>
+    /// Verify password against hash
+    /// </summary>
+    Task<bool> VerifyPasswordAsync(string password, string hash, CancellationToken cancellationToken = default);
+    
+    /// <summary>
+    /// Logout and invalidate session
+    /// </summary>
+    Task LogoutAsync(string sessionId, CancellationToken cancellationToken = default);
+    
+    /// <summary>
+    /// Get security audit log
+    /// </summary>
+    Task<IEnumerable<SecurityAuditEvent>> GetAuditLogAsync(DateTime? fromDate = null, DateTime? toDate = null, CancellationToken cancellationToken = default);
 }
